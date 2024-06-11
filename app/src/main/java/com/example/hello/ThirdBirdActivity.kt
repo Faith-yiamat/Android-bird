@@ -26,7 +26,7 @@ class ThirdBirdActivity : AppCompatActivity() {
             finish()
         }
         binding.btnNextThree.setOnClickListener {
-            val  intent = Intent(this,FifthBirdActivity::class.java)
+            val  intent = Intent(this,FourthBirdActivity::class.java)
             startActivity(intent)
         }
         Picasso.get().load("https://img.freepik.com/premium-photo/nature-beautiful-birds-tree-by-ai-generator_963653-6.jpg?w=360").into(binding.imageView3)
